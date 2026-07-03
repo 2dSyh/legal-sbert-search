@@ -1,17 +1,21 @@
-# Python
+# Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 .venv/
 venv/
+env/
 
-# Project specific
+# Data and Models (Tuyệt đối không push data và index vector nặng lên Git)
 data/raw/*
 data/processed/*
 !data/**/.gitkeep
 models/*
 !models/.gitkeep
 
-# Environments
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
 .env
 .ipynb_checkpoints/
