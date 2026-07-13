@@ -3,3 +3,4 @@ faiss-cpu==1.8.0.post1
 pandas==2.2.2
 streamlit==1.36.0
 tqdm==4.66.4
+underthesea==6.8.3
